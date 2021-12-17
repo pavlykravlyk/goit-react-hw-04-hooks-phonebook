@@ -1,0 +1,48 @@
+.List {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  width: 400px;
+  list-style: none;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.Item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.Name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Number {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Btn {
+  padding: 5px;
+  min-width: 80px;
+  min-height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.Btn:hover,
+.Btn :focus {
+  background-color: gray;
+  color: white;
+}
